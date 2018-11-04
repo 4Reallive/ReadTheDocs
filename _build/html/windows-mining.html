@@ -1,0 +1,259 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Windows Mining &mdash; Celestial  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Create A Windows Local Node" href="windows-local-node.html" />
+    <link rel="prev" title="Welcome to Celestial’s documentation!" href="index.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Celestial
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Windows Mining</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#downloading-files">Downloading Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#option-1-using-a-bat-file">Option #1: Using A .bat File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#option-2-using-command-prompt">Option #2: Using Command Prompt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mining">Mining</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#faq">FAQ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="windows-local-node.html">Create A Windows Local Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="windows-remote-node.html">Create A Windows Remote Node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gui-troubleshooting.html">GUI Wallet Troubleshooting</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Celestial</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Windows Mining</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/windows-mining.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="windows-mining">
+<span id="windows-mining"></span><h1>Windows Mining<a class="headerlink" href="#windows-mining" title="Permalink to this headline">¶</a></h1>
+<p>This guide will explain how to mine Celestial on a Windows device.</p>
+<div class="section" id="downloading-files">
+<span id="downloading-files"></span><h2>Downloading Files<a class="headerlink" href="#downloading-files" title="Permalink to this headline">¶</a></h2>
+<p>The first step to get started mining is to download the newest client release versioin here: https://github.com/CelestialCash/Celestial/releases/. Select the Windows.zip file and it should download it. Then just unzip the files.</p>
+</div>
+<div class="section" id="option-1-using-a-bat-file">
+<span id="option-1-using-a-bat-file"></span><h2>Option #1: Using A .bat File<a class="headerlink" href="#option-1-using-a-bat-file" title="Permalink to this headline">¶</a></h2>
+<p>The first and easiest option is to use the bat file included. If you want to just start mining without syncing the blockchain or starting a node open the files titled miner-start-remote-daemon.bat replace the wallet address with your own then save and exit. Finally double click the miner-start-remote-daemon.bat file. If you are new to mining you can stop here and enjoy mining. If you want to use a node that is not the default replace “celc.pubnodes.com:18236” with the url of the node you want. If you have a local node that runs on your computer open the file titled miner-start.bat in a text editor and replace the wallet address in there with your own then save and exit. If you want to create a local node and do not know how check out <a class="reference external" href="./windows-node">Windows Local Node</a>.</p>
+</div>
+<div class="section" id="option-2-using-command-prompt">
+<span id="option-2-using-command-prompt"></span><h2>Option #2: Using Command Prompt<a class="headerlink" href="#option-2-using-command-prompt" title="Permalink to this headline">¶</a></h2>
+<p>Locate the Celestial directory in the command prompt and make sure you are running as an admin.</p>
+<p>If you do not want to use a local node type something like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">miner</span><span class="o">.</span><span class="n">exe</span> <span class="o">--</span><span class="n">address</span> <span class="n">CJH7776JGgXfJSD44oNUPuQTAsdLk6nMm2tQc7mFShVxQcJm7oUv8Pv8Q1oNNuN8MBDmdLd1y2dygPTnVCGkRRZbNbyBnfe</span> <span class="o">--</span><span class="n">log</span><span class="o">-</span><span class="n">level</span> <span class="mi">3</span> <span class="o">--</span><span class="n">daemon</span><span class="o">-</span><span class="n">host</span> <span class="n">celc</span><span class="o">.</span><span class="n">pubnodes</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="mi">18236</span>
+</pre></div>
+</div>
+<p>You can also replace <code class="docutils literal notranslate"><span class="pre">celc.pubnodes.com:18236</span></code> with another url if you want to use someone elses.
+If you want to create your own a local node check out <a class="reference external" href="./windows-remote-node">Windows Remote Node</a>.</p>
+<p>If you want to use a local node type type something like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">miner</span><span class="o">.</span><span class="n">exe</span> <span class="o">--</span><span class="n">address</span> <span class="n">CJH7776JGgXfJSD44oNUPuQTAsdLk6nMm2tQc7mFShVxQcJm7oUv8Pv8Q1oNNuN8MBDmdLd1y2dygPTnVCGkRRZbNbyBnfe</span> <span class="o">--</span><span class="n">log</span><span class="o">-</span><span class="n">level</span> <span class="mi">3</span>
+</pre></div>
+</div>
+<p>If you do not know how to create a local node check out <a class="reference external" href="./windows-local-node">Windows Local Node</a>.</p>
+<p>With either command replace the address with your own and press enter.</p>
+</div>
+<div class="section" id="mining">
+<span id="mining"></span><h2>Mining<a class="headerlink" href="#mining" title="Permalink to this headline">¶</a></h2>
+<p>Once you have started mining leave that window open for as long as you want to mine. When you close it, it will stop mining. You should get an update in the console with your hashrate every few minutes. When you find a block it will tell you in the mining window</p>
+</div>
+<div class="section" id="faq">
+<span id="faq"></span><h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h2>
+<p><strong>Q</strong>: I am not finding blocks?
+<strong>A</strong>: Celestial is a solo mining coin so it might take a while to find a block but this will happen to everyone so you won’t actually be getting less profit then others with a similar hashrate. Also since Celestial is pool resistant people with mining farms won’t get that much of an advantage because each of their CPU’s are on their own.</p>
+<p><strong>Q</strong>: Can you add mining to the GUI Wallet?
+<strong>A</strong>: Not at this time, I would like to keep mining and storage seperate.</p>
+<p><strong>Q</strong>: Is there going to be an easier mining system?
+<strong>A</strong>: Yes I will be working on an easier system for mining in the next few weeks.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="windows-local-node.html" class="btn btn-neutral float-right" title="Create A Windows Local Node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to Celestial’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Gerry Mosha
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
