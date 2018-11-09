@@ -13,4 +13,5 @@ Welcome to Celestial's documentation!
    windows-mining
    windows-local-node
    windows-remote-node
+   linux-mining
    gui-troubleshooting
